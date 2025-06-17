@@ -6,6 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
+    "deploy": "next build && next export && gh-pages -d out",
+    "deploy:github": "NEXT_PUBLIC_BASE_PATH=/nama-repositori-anda npm run build && gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
