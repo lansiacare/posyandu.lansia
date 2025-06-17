@@ -25,7 +25,7 @@ export default function PosyanduDetailPage({ params }: PosyanduDetailProps) {
       schedule: "Setiap Sabtu, 08:00 - 11:00",
       dayOfWeek: 6, // Saturday
       timeRange: "08:00 - 11:00",
-      image: "public/images/condongcatur.jpg?height=300&width=600",
+      image: "/images/condongcatur.jpg?height=300&width=600",
     },
     caturtunggal: {
       name: "Posyandu Caturtunggal",
@@ -35,7 +35,7 @@ export default function PosyanduDetailPage({ params }: PosyanduDetailProps) {
       schedule: "Setiap Selasa, 09:00 - 12:00",
       dayOfWeek: 2, // Tuesday
       timeRange: "09:00 - 12:00",
-      image: "public/images/caturtunggal.jpg?height=300&width=600",
+      image: "/images/caturtunggal.jpg?height=300&width=600",
     },
     maguwoharjo: {
       name: "Posyandu Maguwoharjo",
@@ -45,7 +45,7 @@ export default function PosyanduDetailPage({ params }: PosyanduDetailProps) {
       schedule: "Setiap Jumat, 08:00 - 11:00",
       dayOfWeek: 5, // Friday
       timeRange: "08:00 - 11:00",
-      image: "public/images/maguwoharjo.jpg?height=300&width=600",
+      image: "/images/maguwoharjo.jpg?height=300&width=600",
     },
   }
 
@@ -111,7 +111,7 @@ export default function PosyanduDetailPage({ params }: PosyanduDetailProps) {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden mb-6">
           <Image
-            src={currentPosyandu.image}
+            src={currentPosyandu.image || "/placeholder.svg"}
             alt={currentPosyandu.name}
             width={600}
             height={300}
