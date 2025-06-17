@@ -111,7 +111,7 @@ export default function PosyanduDetailPage({ params }: PosyanduDetailProps) {
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden mb-6">
           <Image
-            src={currentPosyandu.image || "/placeholder.svg"}
+            src={currentPosyandu.image}
             alt={currentPosyandu.name}
             width={600}
             height={300}
