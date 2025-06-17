@@ -48,7 +48,7 @@ export default function PosyanduSection() {
           {posyandus.map((posyandu, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
               <Image
-                src={posyandu.image}
+                src={posyandu.image || "/placeholder.svg"}
                 alt={posyandu.name}
                 width={300}
                 height={200}
