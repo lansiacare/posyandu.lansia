@@ -12,7 +12,7 @@ export default function PosyanduSection() {
       schedule: "Setiap Sabtu, 08:00 - 11:00",
       participants: "45 lansia terdaftar",
       status: "AKTIF",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/condongcatur.jpg?height=200&width=300",
     },
     {
       id: "caturtunggal",
@@ -21,7 +21,7 @@ export default function PosyanduSection() {
       schedule: "Setiap Selasa, 09:00 - 12:00",
       participants: "38 lansia terdaftar",
       status: "AKTIF",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/caturtunggal.jpg?height=200&width=300",
     },
     {
       id: "maguwoharjo",
@@ -30,7 +30,7 @@ export default function PosyanduSection() {
       schedule: "Setiap Jumat, 08:00 - 11:00",
       participants: "32 lansia terdaftar",
       status: "AKTIF",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/images/maguwoharjo.jpg?height=200&width=300",
     },
   ]
 
